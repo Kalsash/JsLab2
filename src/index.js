@@ -9,7 +9,8 @@ function setup() {
 
 function diff(){
     const polynomInputStr = document.getElementById('polynomInputField').value
-    const resultStr = miniMaple.symbolic_diff(polynomInputStr, "x")
+    const targetInputStr = document.getElementById('targetInputField').value
+    const resultStr = miniMaple.symbolic_diff(polynomInputStr, targetInputStr)
     if (resultStr === null) {
         alert("Error! Cannot parse polynom")
     }

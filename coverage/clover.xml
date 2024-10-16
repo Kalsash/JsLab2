@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1727541501117" clover="3.2.0">
-  <project timestamp="1727541501117" name="All files">
+<coverage generated="1729061474138" clover="3.2.0">
+  <project timestamp="1729061474138" name="All files">
     <metrics statements="72" coveredstatements="72" conditionals="38" coveredconditionals="38" methods="5" coveredmethods="5" elements="115" coveredelements="115" complexity="0" loc="72" ncloc="72" packages="1" files="1" classes="1"/>
     <file name="miniMaple.js" path="C:\Users\LastHero\Desktop\JS\Js_TRUE_LAB2\cp_lesson4\src\miniMaple.js">
       <metrics statements="72" coveredstatements="72" conditionals="38" coveredconditionals="38" methods="5" coveredmethods="5"/>

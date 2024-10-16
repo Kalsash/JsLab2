@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lesson 4</title>
+    <title>Вычисление производной полинома</title>
     <meta charset="UTF-8"/>
-
-    <script src="src/index.js" type="module"></script>
+      <script src="src/ui.js" defer></script>
 </head>
-
 <body>
-<h1>Implement the symbolic diff here</h1>
-<div id="container">
+    <h1>Вычисление производной полинома</h1>
+    <div id="container">
+        <input type="text" id="polynomInputField" placeholder="Введите полином" />
+        <br>
+        <br>
+        <input type="text" id="targetInputField" placeholder="Введите переменную, по которой вычислять производную" />
+        <button id="demoButton">Вычислить производную</button>
+        <div id="resultLabel"></div>
+    </div>
 
-</div>
-<div>
-    <button id="demoButton">
-        Add something
-    </button>
-</div>
+    <script>
+        document.getElementById("demoButton").addEventListener("click", () => {
+            const inputField = document.getElementById("polynomInputField").value;
+            const targetField = document.getElementById("targetInputField").value; 
+            diff();  
+            document.getElementById("resultLabel").innerText;  
+			
+        });
+    </script>
 </body>
 </html>
